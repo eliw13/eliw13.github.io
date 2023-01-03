@@ -4213,7 +4213,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-bg);
-    padding-top: calc(7 * var(--space));
+    padding-top: 0;
     padding-bottom: 0;
 }
 
@@ -4223,7 +4223,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-portfolio__list {
     max-width: calc(var(--width-max) + 40px);
-    padding-top: var(--vspace-1_5);
+    padding-top: 0;
 }
 
 .folio-item {
@@ -4395,7 +4395,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
     .s-portfolio {
-        padding-top: calc(5 * var(--space));
+        padding-top: 0;
     }
     .folio-item__thumb a::after {
         font-size: 2rem;
