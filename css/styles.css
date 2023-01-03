@@ -338,6 +338,12 @@ h1 {
     margin: 0.67em 0;
 }
 
+#heading {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
 /* ------------------------------------------------------------------- 
  * ## grouping
  * ------------------------------------------------------------------- */
@@ -3122,7 +3128,7 @@ input::-moz-focus-inner {
     transition: all .5s;
     position: absolute;
     left: 0rem;
-    top: calc(50% - 2px);
+    top: calc(50% + 5px);
 }
 
 .s-header__logo a {
@@ -3133,7 +3139,7 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 147px;
+    width: 150px;
     height: 74px;
     margin-top: 0;
     margin-bottom: 0;
@@ -4440,7 +4446,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-clients {
     background-color: var(--color-bg);
-    padding-top: calc(6 * var(--space));
+    padding-top: 10;
     padding-bottom: var(--vspace-4);
     position: relative;
 }
@@ -4678,8 +4684,8 @@ html.no-csstransitions .s-hero__content {
 .s-contact__email {
     margin-top: var(--vspace-1_5);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 6.6);
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 125;
     letter-spacing: -0.01em;
     line-height: 1;
 }
@@ -4695,27 +4701,6 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * contact
- * ------------------------------------------------------------------- */
-@media screen and (max-width: 1600px) {
-    .s-contact__email {
-        font-size: calc(var(--text-size) * 6);
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .s-contact__email {
-        font-size: 10vw;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .s-contact {
-        padding-top: var(--vspace-4);
-    }
-}
 
 
 
