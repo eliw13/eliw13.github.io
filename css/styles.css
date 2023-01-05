@@ -3134,7 +3134,7 @@ input::-moz-focus-inner {
 .s-header__logo a {
     display: block;
     border: none;
-    padding: 0px;
+    padding: 80px;
     outline: 0;
 }
 
@@ -3150,7 +3150,7 @@ input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .s-header__nav-wrap {
-    padding-left: 0px;
+    padding-left: 250px;
 }
 
 .s-header__nav {
@@ -3336,7 +3336,7 @@ input::-moz-focus-inner {
         left: 6rem;
     }
     .s-header__nav-wrap {
-        padding-left: 19.6rem;
+        padding-left: 17.6rem;
     }
     .s-header__content .btn {
         right: 6rem;
@@ -3345,7 +3345,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width: 1000px) {
     .s-header__nav-wrap {
-        padding-left: 17.6rem;
+        padding-left: 25rem;
     }
     .s-header__content .btn {
         --btn-height: calc(var(--vspace-btn) - 1.6rem) !important;
@@ -4165,15 +4165,15 @@ html.no-csstransitions .s-hero__content {
 }
 
 .service-icon--product-design {
-    background-image: url(../images/icons/services/icon-product-design.svg);
+    background-image: url(../images/icons/services/car-solid.svg);
 }
 
 .service-icon--branding {
-    background-image: url(../images/icons/services/icon-branding.svg);
+    background-image: url(../images/icons/services/screwdriver-wrench-solid.svg);
 }
 
 .service-icon--frontend {
-    background-image: url(../images/icons/services/icon-frontend.svg);
+    background-image: url(../images/icons/services/soap-solid.svg);
 }
 
 .service-icon--research {
@@ -4214,7 +4214,7 @@ html.no-csstransitions .s-hero__content {
 .s-portfolio {
     background-color: var(--color-bg);
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 75px;
 }
 
 
