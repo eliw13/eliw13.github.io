@@ -4673,6 +4673,7 @@ html.no-csstransitions .s-hero__content {
     background-color: var(--color-1);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
+    padding-right: calc(10 * var(--space));
 }
 
 .s-contact__top .h6 {
