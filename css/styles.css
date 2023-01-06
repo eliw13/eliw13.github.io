@@ -3135,7 +3135,7 @@ input::-moz-focus-inner {
 .s-header__logo a {
     display: block;
     border: none;
-    padding-left: 75px;
+    padding-left: 3vw;
     outline: 0;
 }
 
@@ -3151,7 +3151,7 @@ input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .s-header__nav-wrap {
-    padding-left: 300px;
+    padding-left: 15vw;
 }
 
 .s-header__nav {
