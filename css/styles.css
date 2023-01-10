@@ -3177,7 +3177,7 @@ input::-moz-focus-inner {
 
 .s-header__nav li {
     display: inline-block;
-    padding-left: 175px;
+    padding-left: 10vw;
     margin: 0 1rem;
 }
 
