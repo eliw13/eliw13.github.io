@@ -3591,6 +3591,7 @@ input::-moz-focus-inner {
     display: inline-block;
     font-size: 1.8rem;
     line-height: var(--vspace-1);
+    margin-bottom: 10px;
 }
 
 .s-hero__content-social a {
