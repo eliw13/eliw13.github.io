@@ -4031,10 +4031,10 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    background-image: url(../images/about-logo-100x100.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     position: absolute;
     top: var(--vspace-0_5);
     right: var(--gutter-lg);
